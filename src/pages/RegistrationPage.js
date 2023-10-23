@@ -15,7 +15,7 @@ export default function RegistrationPage() {
     const password2Field = useRef();
     const navigate = useNavigate();
     const api = useApi();
-    const {flash} = useFlash();
+    const flash = useFlash();
     // console.log("Flash in RegistrationPage:", flash);
     useEffect(() => {
         usernameField.current.focus();

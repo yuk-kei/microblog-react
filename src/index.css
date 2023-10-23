@@ -18,7 +18,7 @@
   width: 100%;
 }
 
-.Sidebar a {
+.Sidebar a, .dropdown-item, .dropdown-item.active {
   color: #444;
 }
 
@@ -30,7 +30,7 @@
   color: #444;
 }
 
-.Sidebar .nav-item .active{
+.Sidebar .nav-item .active, .dropdown-item.active{
   background-color: #def;
 }
 
